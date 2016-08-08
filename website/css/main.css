@@ -1,0 +1,103 @@
+html, body {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+body {
+	background: url("../images/bgbody.jpg");
+	
+}
+
+#world {
+	position: absolute;
+	width: 200vw;
+	height: 700vh;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	background: url("../images/example.jpg") center center no-repeat;
+	background-size: auto 100%;
+}	
+
+#world[data-row="1"] { top: 0 }
+#world[data-row="2"] { top: -100vh }
+#world[data-row="3"] { top: -200vh }
+#world[data-row="4"] { top: -300vh }
+#world[data-row="5"] { top: -400vh }
+#world[data-row="6"] { top: -500vh }
+#world[data-row="7"] { top: -600vh }
+
+#world[data-field="1"] { left: 0 }
+#world[data-field="2"] { left: -100vw }
+
+
+.field {
+	float: left;
+	width: 100vw;
+	height: 100vh;
+}
+/*
+.field[data-row="1"][data-field="1"] { background: red; }
+.field[data-row="2"][data-field="1"] { background: orange; }
+.field[data-row="3"][data-field="1"] { background: yellow; }
+.field[data-row="4"][data-field="1"] { background: green; }
+.field[data-row="5"][data-field="1"] { background: blue; }
+.field[data-row="6"][data-field="1"] { background: indigo; }
+.field[data-row="7"][data-field="1"] { background: violet; }
+
+.field[data-row="7"][data-field="2"] { background: red; }
+.field[data-row="6"][data-field="2"] { background: orange; }
+.field[data-row="5"][data-field="2"] { background: yellow; }
+.field[data-row="4"][data-field="2"] { background: green; }
+.field[data-row="3"][data-field="2"] { background: blue; }
+.field[data-row="2"][data-field="2"] { background: indigo; }
+.field[data-row="1"][data-field="2"] { background: violet; }
+*/
+#char {
+	position: absolute;
+	bottom: 10px;
+	height: 10vh;
+	width: 3vh;
+	background: #000;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+#map {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 2vw;
+	min-width: 30px;
+	height: 7vh;
+	min-height: 70px;
+	border: 2px solid #000;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+#map a {
+	float: left;
+	width: 50%;
+	height: calc(100% / 7);
+	background: red;
+	opacity: .5;
+}
+
+#map a:hover {
+	opacity: 1;
+}
+
+.showMap #map {
+	width: 28vw;
+	height: 91vh;
+	right: 36vw;
+	top: 4.5vh;
+}
