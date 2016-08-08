@@ -39,6 +39,7 @@ body {
 	width: 100vw;
 	height: 100vh;
 }
+
 /*
 .field[data-row="1"][data-field="1"] { background: red; }
 .field[data-row="2"][data-field="1"] { background: orange; }
@@ -56,6 +57,7 @@ body {
 .field[data-row="2"][data-field="2"] { background: indigo; }
 .field[data-row="1"][data-field="2"] { background: violet; }
 */
+
 #char {
 	position: absolute;
 	bottom: 10px;

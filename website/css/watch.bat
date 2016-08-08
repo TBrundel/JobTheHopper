@@ -1,0 +1,1 @@
+sass --watch jobthehopper.scss:jobthehopper.min.css --style compressed

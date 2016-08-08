@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,iBAKG,CACF,MAAM,CAAE,CAAC,CACT,KAAK,CCPe,IAAI,CCAzB,IAAK,CACJ,OAAO,CAAE,CAAC,CACV,MAAM,CAAE,CAAC",
+"sources": ["includes/generic.scss","includes/variables.scss","includes/layout.scss"],
+"names": [],
+"file": "jobthehopper.min.css"
+}
